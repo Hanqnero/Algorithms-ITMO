@@ -30,7 +30,7 @@ func FormatToTypst(info ProblemInfo) string {
 	}
 
 	builder.WriteString("== Успешная попытка\n")
-	builder.WriteString("image(\"AC.jpg\")\n")
+	builder.WriteString("#image(\"AC.png\")\n")
 
 	return builder.String()
 }
